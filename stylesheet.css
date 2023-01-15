@@ -1014,13 +1014,17 @@ body {
     margin-top: 6.8%;
   }
 
+  .popup_box {
+    overflow-y: auto;
+  }
+
   .popup {
     width: 51%;
-    margin-top: 29%;
+    margin-top: 25%;
   }
 
   .popup_label {
-    top: -9.7%;
+    top: -9.2%;
     font-size: 60px;
   }
   
@@ -1292,10 +1296,12 @@ body {
 
   .popup {
     width: 90%;
+/*     height: 100%;
+    overflow-y: auto; */
   }
 
   .popup_label {
-    top: -9%;
+    top: -9.5%;
     font-size: 60px;
   }
   
