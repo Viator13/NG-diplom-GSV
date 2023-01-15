@@ -437,7 +437,7 @@ body {
   top: 0;
   padding: 15px 15px;
   width: 48px;
-  height: 100%;
+  height: 48px;
   background-color: #b59f5b;
   border: none;
 }
@@ -730,7 +730,7 @@ body {
 
 .popup_label {
   position: absolute;
-  top: -6.7%;
+  top: -40px;
   right: 0;
   color: white;
   font-size: 40px;
@@ -1024,7 +1024,7 @@ body {
   }
 
   .popup_label {
-    top: -9.2%;
+    top: -60px;
     font-size: 60px;
   }
   
@@ -1062,7 +1062,7 @@ body {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 640px), (max-width: 926px) and (orientation: landscape) {
   .header {
     background: #000 url(images/banner-mobile.jpg) no-repeat;
     background-size: cover;
@@ -1213,11 +1213,6 @@ body {
     margin-top: -1.5%;
   }
 
-  .search_button {
-    width: 16.3%;
-    padding: 16px 20px;
-  }
-
   .subscribe_header {
     margin-top: 12%;
     margin-bottom: 0;
@@ -1296,13 +1291,6 @@ body {
 
   .popup {
     width: 90%;
-/*     height: 100%;
-    overflow-y: auto; */
-  }
-
-  .popup_label {
-    top: -9.5%;
-    font-size: 60px;
   }
   
   .popup_header {
@@ -1321,7 +1309,7 @@ body {
   }
 }
 
-@media (max-width: 640px) and (orientation: landscape) {
+@media (max-width: 926px) and (orientation: landscape) {
   .trend {
     width: calc(50% - 1.5px);
     height: 247px;
