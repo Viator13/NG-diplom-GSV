@@ -173,6 +173,7 @@ body {
   display: flex;
   align-items: flex-end;
   margin: 0;
+/*   padding: 0 2% 2%; */
 }
 
 .trend::after {
@@ -207,6 +208,7 @@ body {
 }
 
 .trend_content {
+  width: 100%;
   border: 3px solid #b59f5b;
   margin: 33% 5% 3.5%;
   padding: 8%;
@@ -891,12 +893,12 @@ body {
   .trend {
     width: calc(50% - 1.5px);
     height: 247px;
-    padding: 0 2.7% 2%;
+/*     padding: 0 15px 2%; */
     box-sizing: border-box;
   }
 
   .trend:nth-of-type(2n+3) {
-    margin: 0;
+    margin-left: 0;
   }
 
   .trend:nth-of-type(1), .trend:nth-of-type(2) {
@@ -911,10 +913,11 @@ body {
     margin-left: 3px;
   }
 
-  .trend_content {
+/*   .trend_content {
+    padding: 8%;
     padding-top: 9%;
     margin: 0;
-  }
+  } */
 
   .trend_content_title {
     margin-top: 1%;
@@ -988,7 +991,7 @@ body {
 
   .shop_card:nth-of-type(2n+3) {
     margin-left: 0;
-    margin-top: 8%;
+    margin-top: 10%;
   }
 
   .shop_card:nth-of-type(2n) {
@@ -1254,11 +1257,15 @@ body {
 
   .shop_card {
     width: 100%;
-    margin-bottom: 12%;
+    margin-bottom: 20%;
+  }
+
+  .shop_card:nth-of-type(2n) {
+    margin-left: 0;
   }
 
   .shop_card:nth-of-type(2n+3) {
-    margin-top: -10%;
+    margin-top: -7%;
   }
 
   .shop_content {
